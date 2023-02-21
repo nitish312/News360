@@ -12,7 +12,7 @@ export default class App extends Component {
         {/* Hey! This is {this.name} */}
         
         <Navbar/>
-        <News/>
+        <News pageSize={6}/>
       </div>
     )
   }
