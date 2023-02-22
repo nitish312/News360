@@ -4,6 +4,7 @@ import React, { Component } from 'react'
 import Navbar from './components/Navbar';
 import News from './components/News';
 
+
 export default class App extends Component {
   // name = "Beast"
   render() {
@@ -12,7 +13,7 @@ export default class App extends Component {
         {/* Hey! This is {this.name} */}
         
         <Navbar/>
-        <News pageSize={6}/>
+        <News pageSize={6} country="in" category="sports"/>
       </div>
     )
   }
